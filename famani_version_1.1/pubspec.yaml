@@ -1,0 +1,56 @@
+name: famani_parcel_delivery
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.6
+  mqtt_client:
+  shared_preferences:
+  firebase_messaging:
+  flutter_local_notifications:
+  dio:
+  google_fonts:
+  smooth_page_indicator:
+  country_list_pick:
+  otp_text_field:
+  google_maps_flutter:
+  location:
+  touch_ripple_effect:
+  dotted_line:
+  flutter_rating_bar:
+  geolocator:
+  flutter_polyline_points:
+  get:
+  google_places_flutter:
+  sizer:
+  country_flags:
+  carousel_slider:
+  geocoding:
+  dotted_border: ^2.1.0
+  intl: ^0.17.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
